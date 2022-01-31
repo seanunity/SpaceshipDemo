@@ -201,6 +201,7 @@ GameObject:
   - component: {fileID: 6179702686462927890}
   - component: {fileID: 6477854769949503060}
   - component: {fileID: 3599359036091837833}
+  - component: {fileID: 2397596046018612630}
   m_Layer: 0
   m_Name: VirtualCameraManager
   m_TagString: MainCamera
@@ -225,7 +226,7 @@ Transform:
   - {fileID: 5088722954894036336}
   - {fileID: 4498448391235348933}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!20 &3027554877427853613
 Camera:
@@ -373,12 +374,16 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   hasPersistentHistory: 0
+  screenSizeOverride: {x: 0, y: 0, z: 0, w: 0}
+  screenCoordScaleBias: {x: 0, y: 0, z: 0, w: 0}
   allowDeepLearningSuperSampling: 1
   deepLearningSuperSamplingUseCustomQualitySettings: 1
   deepLearningSuperSamplingQuality: 3
   deepLearningSuperSamplingUseCustomAttributes: 0
   deepLearningSuperSamplingUseOptimalSettings: 1
   deepLearningSuperSamplingSharpening: 0.5
+  fsrOverrideSharpness: 0
+  fsrSharpness: 0.92
   exposureTarget: {fileID: 0}
   materialMipBias: 0
   m_RenderingPathCustomFrameSettings:
@@ -484,6 +489,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8f22350d987b53b468c6eac2a04e973a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2397596046018612630
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3027554877427853619}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa8984099d36290438ba9ada2836a822, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &3429080319467456250

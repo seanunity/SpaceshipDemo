@@ -28,6 +28,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1538546691493051038}
   m_RootOrder: 2
@@ -61,7 +62,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: Set ARUI-Hover Off
   visualEffect: {fileID: 1538546691493051010}
-  parameter: ARUI-Hover
+  property: ARUI-Hover
   Override: 1
   dataType: 0
   BoolValue: 0
@@ -101,6 +102,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1538546691493051038}
   m_RootOrder: 0
@@ -166,6 +168,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1.601, y: 0.139, z: -1.332}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 8057465895097812181}
   - {fileID: 2330326058452274655}
@@ -185,8 +188,11 @@ VisualEffect:
   m_GameObject: {fileID: 1538546691493051037}
   m_Enabled: 1
   m_Asset: {fileID: 8926484042661614526, guid: 4dcbb4772c5fd324caaeb159fa95d228, type: 3}
+  m_InitialEventName: OnPlay
+  m_InitialEventNameOverriden: 0
   m_StartSeed: 0
-  m_ResetSeedOnPlay: 1
+  m_ResetSeedOnPlay: 0
+  m_ResourceVersion: 1
   m_PropertySheet:
     m_Float:
       m_Array:
@@ -257,6 +263,7 @@ VisualEffect:
         m_Overridden: 1
 --- !u!73398921 &1538546691493051009
 VFXRenderer:
+  serializedVersion: 1
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -266,19 +273,14 @@ VFXRenderer:
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 0
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -301,7 +303,7 @@ VFXRenderer:
   m_SortingOrder: 0
 --- !u!95 &8301532467802585226
 Animator:
-  serializedVersion: 3
+  serializedVersion: 4
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -314,6 +316,7 @@ Animator:
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
@@ -347,6 +350,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1538546691493051038}
   m_RootOrder: 3
@@ -399,6 +403,10 @@ MonoBehaviour:
   Name: Play Valid
   Clip: {fileID: 8300000, guid: 890beaf8baf7d3b449608914202f8cbb, type: 3}
   Source: {fileID: 2442618818277131212}
+  RandomizePitch: 0
+  PitchRange: {x: 0, y: 3}
+  RandomizeVolume: 0
+  VolumeRange: {x: 0, y: 1}
 --- !u!1 &3934508990247258226
 GameObject:
   m_ObjectHideFlags: 0
@@ -426,6 +434,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1538546691493051038}
   m_RootOrder: 5
@@ -555,6 +564,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1538546691493051038}
   m_RootOrder: 4
@@ -584,7 +594,7 @@ PlayableDirector:
     m_References: []
 --- !u!95 &1900246286497962132
 Animator:
-  serializedVersion: 3
+  serializedVersion: 4
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -597,6 +607,7 @@ Animator:
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
@@ -630,6 +641,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1538546691493051038}
   m_RootOrder: 1
@@ -664,7 +676,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: Set ARUI-Hover On
   visualEffect: {fileID: 1538546691493051010}
-  parameter: ARUI-Hover
+  property: ARUI-Hover
   Override: 1
   dataType: 0
   BoolValue: 1
@@ -691,3 +703,7 @@ MonoBehaviour:
   Name: Play Hover
   Clip: {fileID: 8300000, guid: 71c0dccc4d849f44fb50f96489654443, type: 3}
   Source: {fileID: 2442618818277131212}
+  RandomizePitch: 0
+  PitchRange: {x: 0, y: 3}
+  RandomizeVolume: 0
+  VolumeRange: {x: 0, y: 1}

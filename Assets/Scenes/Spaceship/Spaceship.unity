@@ -1224,6 +1224,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1880381431977666439, guid: 4852b0028ca6ba14485b2ba666b2f735,
@@ -1292,6 +1293,7 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2020136047}
     m_RemovedComponents: []
+    m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 4852b0028ca6ba14485b2ba666b2f735, type: 3}
 --- !u!1 &1041147647
 GameObject:
@@ -2018,7 +2020,7 @@ VisualEffect:
   m_InitialEventName: OnPlay
   m_InitialEventNameOverriden: 0
   m_StartSeed: 0
-  m_ResetSeedOnPlay: 1
+  m_ResetSeedOnPlay: 0
   m_ResourceVersion: 1
   m_PropertySheet:
     m_Float:
@@ -2651,6 +2653,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 2844759637480249413, guid: 7a4067ac9aa3d974cbdfb8831d2cebeb,
@@ -2714,6 +2717,7 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 7a4067ac9aa3d974cbdfb8831d2cebeb, type: 3}
 --- !u!114 &2020136047 stripped
 MonoBehaviour:

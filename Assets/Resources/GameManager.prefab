@@ -652,36 +652,6 @@ MonoBehaviour:
   Mixer: {fileID: 24100000, guid: 6ba17f8357488334ab441a3007933556, type: 2}
   TimeToReach: 0.01
   SnapshotName: silent
---- !u!114 &860972974552079276
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3352890470543022687}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c68adda9532fd8043b281736d2a5fbcf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Name: Send RETURN_TO_MENU
-  MessageToSend: RETURN_TO_MENU
---- !u!114 &4087907102769623487
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3352890470543022687}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 846d5f33f7af4014ea15adf7a92dc953, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Name: ToggleGameObjectAction
-  Targets:
-  - GameObject: {fileID: 7902412300840088629}
-    State: 0
 --- !u!1 &3649708764804311072
 GameObject:
   m_ObjectHideFlags: 0
@@ -890,35 +860,6 @@ MonoBehaviour:
   UserSaveName: Progress
   SaveProgress: 0
   OnComplete: []
---- !u!114 &3266239837786560799
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5493571293978752564}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 313f9593d35b2c740928abbd82069aa0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Name: SetStateAction
-  StateMachine: {fileID: 1060768337217150399}
-  m_State: Options
---- !u!114 &4718826374670471140
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5493571293978752564}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1e96e23fc0058b9438af30550fbe4943, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Name: FocusUIAction
-  UIObjectToFocus: {fileID: 5170492799999248411}
 --- !u!1 &6034164418353569011
 GameObject:
   m_ObjectHideFlags: 0
@@ -1029,6 +970,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 25
+  m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
@@ -1385,50 +1327,6 @@ MonoBehaviour:
   Targets:
   - GameObject: {fileID: 6698515598433868125}
     State: 0
---- !u!114 &367051696529823597
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7104838178688002354}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 846d5f33f7af4014ea15adf7a92dc953, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Name: ToggleGameObjectAction
-  Targets:
-  - GameObject: {fileID: 7902412300840088629}
-    State: 0
---- !u!114 &7459332375849164145
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7548140644448069413}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0e98867b2173494983582dfb1a01d0b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Name: Disable Graphics Raycaster
-  OnExecute:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 4562329268975127041}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: set_enabled
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!1 &7902412300840088629
 GameObject:
   m_ObjectHideFlags: 0
@@ -1566,6 +1464,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 2
     m_TransformParent: {fileID: 4171399927993139028}
     m_Modifications:
     - target: {fileID: 593389043354867969, guid: c5924b4e4a61a794293cea4ef7c3c6f6,
@@ -1794,24 +1693,56 @@ PrefabInstance:
       value: Button_ToMenu
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: c5924b4e4a61a794293cea4ef7c3c6f6, type: 3}
---- !u!1 &3352890470543022687 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 593389043489366252, guid: c5924b4e4a61a794293cea4ef7c3c6f6,
-    type: 3}
-  m_PrefabInstance: {fileID: 2791097273579780787}
-  m_PrefabAsset: {fileID: 0}
 --- !u!224 &3352890470543022672 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 593389043489366243, guid: c5924b4e4a61a794293cea4ef7c3c6f6,
     type: 3}
   m_PrefabInstance: {fileID: 2791097273579780787}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &3352890470543022687 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 593389043489366252, guid: c5924b4e4a61a794293cea4ef7c3c6f6,
+    type: 3}
+  m_PrefabInstance: {fileID: 2791097273579780787}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &860972974552079276
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3352890470543022687}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c68adda9532fd8043b281736d2a5fbcf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Send RETURN_TO_MENU
+  MessageToSend: RETURN_TO_MENU
+--- !u!114 &4087907102769623487
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3352890470543022687}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 846d5f33f7af4014ea15adf7a92dc953, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: ToggleGameObjectAction
+  Targets:
+  - GameObject: {fileID: 7902412300840088629}
+    State: 0
 --- !u!1001 &4900252624938866392
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 2
     m_TransformParent: {fileID: 4171399927993139028}
     m_Modifications:
     - target: {fileID: 593389043354867969, guid: c5924b4e4a61a794293cea4ef7c3c6f6,
@@ -2040,13 +1971,43 @@ PrefabInstance:
       value: Button_Options
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: c5924b4e4a61a794293cea4ef7c3c6f6, type: 3}
---- !u!224 &5493571293978752571 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 593389043489366243, guid: c5924b4e4a61a794293cea4ef7c3c6f6,
+--- !u!1 &5493571293978752564 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 593389043489366252, guid: c5924b4e4a61a794293cea4ef7c3c6f6,
     type: 3}
   m_PrefabInstance: {fileID: 4900252624938866392}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &3266239837786560799
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5493571293978752564}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 313f9593d35b2c740928abbd82069aa0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: SetStateAction
+  StateMachine: {fileID: 1060768337217150399}
+  m_State: Options
+--- !u!114 &4718826374670471140
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5493571293978752564}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e96e23fc0058b9438af30550fbe4943, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: FocusUIAction
+  UIObjectToFocus: {fileID: 5170492799999248411}
 --- !u!114 &5493571293978752570 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 593389043489366242, guid: c5924b4e4a61a794293cea4ef7c3c6f6,
@@ -2059,9 +2020,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &5493571293978752564 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 593389043489366252, guid: c5924b4e4a61a794293cea4ef7c3c6f6,
+--- !u!224 &5493571293978752571 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 593389043489366243, guid: c5924b4e4a61a794293cea4ef7c3c6f6,
     type: 3}
   m_PrefabInstance: {fileID: 4900252624938866392}
   m_PrefabAsset: {fileID: 0}
@@ -2070,6 +2031,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 2
     m_TransformParent: {fileID: 4171399927993139028}
     m_Modifications:
     - target: {fileID: 593389043354867969, guid: c5924b4e4a61a794293cea4ef7c3c6f6,
@@ -2268,7 +2230,30 @@ PrefabInstance:
       value: Button_Cancel
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: c5924b4e4a61a794293cea4ef7c3c6f6, type: 3}
+--- !u!1 &7104838178688002354 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 593389043489366252, guid: c5924b4e4a61a794293cea4ef7c3c6f6,
+    type: 3}
+  m_PrefabInstance: {fileID: 7684636982430796254}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &367051696529823597
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7104838178688002354}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 846d5f33f7af4014ea15adf7a92dc953, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: ToggleGameObjectAction
+  Targets:
+  - GameObject: {fileID: 7902412300840088629}
+    State: 0
 --- !u!114 &7104838178688002364 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 593389043489366242, guid: c5924b4e4a61a794293cea4ef7c3c6f6,
@@ -2287,17 +2272,12 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 7684636982430796254}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &7104838178688002354 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 593389043489366252, guid: c5924b4e4a61a794293cea4ef7c3c6f6,
-    type: 3}
-  m_PrefabInstance: {fileID: 7684636982430796254}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &7915512571080043006
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 2
     m_TransformParent: {fileID: 1994204251719921874}
     m_Modifications:
     - target: {fileID: 3033398031040875572, guid: cd858da4c7d786143b9993acc1b30217,
@@ -2466,6 +2446,7 @@ PrefabInstance:
       value: -28.400024
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: cd858da4c7d786143b9993acc1b30217, type: 3}
 --- !u!114 &5170492799999248411 stripped
 MonoBehaviour:
@@ -2502,6 +2483,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 2
     m_TransformParent: {fileID: 1994204251719921874}
     m_Modifications:
     - target: {fileID: 1525667865134529129, guid: 7032562b6942e724cb3c1db0fe904b11,
@@ -2585,6 +2567,7 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 7032562b6942e724cb3c1db0fe904b11, type: 3}
 --- !u!4 &1914840421480633955 stripped
 Transform:
@@ -2598,3 +2581,31 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 8614954221457543793}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &7459332375849164145
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7548140644448069413}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0e98867b2173494983582dfb1a01d0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Disable Graphics Raycaster
+  OnExecute:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4562329268975127041}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
