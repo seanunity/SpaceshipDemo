@@ -930,7 +930,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &814287407
 Transform:
   m_ObjectHideFlags: 0
@@ -1390,7 +1390,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1065840953
 Transform:
   m_ObjectHideFlags: 0
@@ -2656,6 +2656,16 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2844759635616054400, guid: 7a4067ac9aa3d974cbdfb8831d2cebeb,
+        type: 3}
+      propertyPath: m_DirectorUpdateMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2844759637140164313, guid: 7a4067ac9aa3d974cbdfb8831d2cebeb,
+        type: 3}
+      propertyPath: m_DirectorUpdateMode
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2844759637480249413, guid: 7a4067ac9aa3d974cbdfb8831d2cebeb,
         type: 3}
       propertyPath: m_Name
@@ -2715,6 +2725,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3071960215948058103, guid: 7a4067ac9aa3d974cbdfb8831d2cebeb,
+        type: 3}
+      propertyPath: m_DirectorUpdateMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6018460610484262954, guid: 7a4067ac9aa3d974cbdfb8831d2cebeb,
+        type: 3}
+      propertyPath: m_DirectorUpdateMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8123225692660597267, guid: 7a4067ac9aa3d974cbdfb8831d2cebeb,
+        type: 3}
+      propertyPath: m_Lens.FieldOfView
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 9117497589210571310, guid: 7a4067ac9aa3d974cbdfb8831d2cebeb,
+        type: 3}
+      propertyPath: m_Lens.FieldOfView
+      value: 80
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []

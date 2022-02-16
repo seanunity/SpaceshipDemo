@@ -23,7 +23,7 @@ public class ConfigureShakeAction : ActionBase
     public override void Execute(GameObject instigator = null)
     {
         var manager = Manager.Get<ShakeManager>();
-        manager.ShakeEnabled = ShakeEnabled;
+        manager.ShakeEnabled = false;
         manager.Attenuation = Attenuation;
         manager.MinDelay = MinDelay;
         manager.MaxDelay = MaxDelay;

@@ -242,7 +242,7 @@ MonoBehaviour:
   active: 1
   mode:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 3
   meteringMode:
     m_OverrideState: 0
     m_Value: 2
@@ -253,8 +253,8 @@ MonoBehaviour:
     m_OverrideState: 1
     m_Value: -2.9866724
   compensation:
-    m_OverrideState: 0
-    m_Value: 0
+    m_OverrideState: 1
+    m_Value: 18
   limitMin:
     m_OverrideState: 0
     m_Value: -1
@@ -399,10 +399,10 @@ MonoBehaviour:
     m_Value: 0
   intensity:
     m_OverrideState: 1
-    m_Value: 0.195
+    m_Value: 0.25
   scatter:
-    m_OverrideState: 0
-    m_Value: 0.7
+    m_OverrideState: 1
+    m_Value: 0.8
   tint:
     m_OverrideState: 0
     m_Value: {r: 1, g: 1, b: 1, a: 1}

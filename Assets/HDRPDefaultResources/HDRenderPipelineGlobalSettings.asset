@@ -17,7 +17,7 @@ MonoBehaviour:
   m_LookDevVolumeProfile: {fileID: 0}
   m_RenderingPathDefaultCameraFrameSettings:
     bitDatas:
-      data1: 72198260625768269
+      data1: 72198259686244173
       data2: 13763000477350297624
     lodBias: 1
     lodBiasMode: 0
@@ -47,7 +47,7 @@ MonoBehaviour:
     materialQuality: 0
   m_RenderingPathDefaultRealtimeReflectionFrameSettings:
     bitDatas:
-      data1: 139923391782733
+      data1: 139922586476365
       data2: 13763000465807638544
     lodBias: 1
     lodBiasMode: 0
@@ -65,6 +65,7 @@ MonoBehaviour:
   m_RenderPipelineRayTracingResources: {fileID: 0}
   beforeTransparentCustomPostProcesses: []
   beforePostProcessCustomPostProcesses: []
+  afterPostProcessBlursCustomPostProcesses: []
   afterPostProcessCustomPostProcesses: []
   beforeTAACustomPostProcesses: []
   lightLayerName0: 
@@ -83,8 +84,8 @@ MonoBehaviour:
   decalLayerName5: 
   decalLayerName6: 
   decalLayerName7: 
-  shaderVariantLogLevel: 0
   lensAttenuationMode: 0
+  colorGradingSpace: 0
   diffusionProfileSettingsList:
   - {fileID: 11400000, guid: b3824ccb968f5494293c58b7bbfb24ae, type: 2}
   - {fileID: 11400000, guid: 9ae4d88f73ba28f419bdd8f185b735c6, type: 2}
@@ -97,7 +98,13 @@ MonoBehaviour:
   useDLSSCustomProjectId: 0
   supportProbeVolumes: 0
   supportRuntimeDebugDisplay: 0
-  apvScenesBounds:
+  apvScenesData:
     serializedBounds: []
     serializedHasVolumes: []
+    serializedProfiles: []
+    serializedBakeSettings: []
+    serializedBakingSets: []
+    m_BakingState: Default
   m_Version: 3
+  m_ShaderVariantLogLevel: 0
+  m_ExportShaderVariants: 1

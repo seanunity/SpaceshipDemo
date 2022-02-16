@@ -45,6 +45,7 @@ public class ShakeManager : Manager
 
     private void OnEnable()
     {
+        Random.InitState(999);
         m_Recievers = new List<OnShakeEvent>();
     }
 
