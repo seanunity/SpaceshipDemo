@@ -2596,7 +2596,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &200500120
 Transform:
   m_ObjectHideFlags: 0
@@ -2793,7 +2793,7 @@ Light:
   m_UseColorTemperature: 1
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
-  m_UseViewFrustumForShadowCasterCull: 1
+  m_UseViewFrustumForShadowCasterCull: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
 --- !u!1 &208609268
@@ -6939,7 +6939,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &703106556
 Transform:
   m_ObjectHideFlags: 0
@@ -7136,7 +7136,7 @@ Light:
   m_UseColorTemperature: 1
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
-  m_UseViewFrustumForShadowCasterCull: 1
+  m_UseViewFrustumForShadowCasterCull: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
 --- !u!1 &709471490
@@ -7940,7 +7940,7 @@ PrefabInstance:
     - target: {fileID: 569870431297669760, guid: e0e0049f8f7577d469e658ec48b20b73,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 569870431297669764, guid: e0e0049f8f7577d469e658ec48b20b73,
         type: 3}
@@ -13397,7 +13397,7 @@ PrefabInstance:
     - target: {fileID: 569870431297669760, guid: e0e0049f8f7577d469e658ec48b20b73,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 569870431297669764, guid: e0e0049f8f7577d469e658ec48b20b73,
         type: 3}
@@ -16048,7 +16048,7 @@ MonoBehaviour:
   m_ShadowVariant: 0
   m_ShadowPrecision: 0
   useOldInspector: 0
-  useVolumetric: 0
+  useVolumetric: 1
   featuresFoldout: 1
   m_AreaLightEmissiveMeshShadowCastingMode: 0
   m_AreaLightEmissiveMeshMotionVectorGenerationMode: 0
@@ -21154,7 +21154,7 @@ PrefabInstance:
     - target: {fileID: 569870431297669760, guid: e0e0049f8f7577d469e658ec48b20b73,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 569870431297669764, guid: e0e0049f8f7577d469e658ec48b20b73,
         type: 3}
@@ -23867,7 +23867,7 @@ PrefabInstance:
     - target: {fileID: 3825195893792769655, guid: d6ef7f462a0ed4748a325866b1bff6b6,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5925943696293534408, guid: d6ef7f462a0ed4748a325866b1bff6b6,
         type: 3}
@@ -26885,7 +26885,7 @@ MonoBehaviour:
   m_ShadowVariant: 0
   m_ShadowPrecision: 0
   useOldInspector: 0
-  useVolumetric: 0
+  useVolumetric: 1
   featuresFoldout: 1
   m_AreaLightEmissiveMeshShadowCastingMode: 0
   m_AreaLightEmissiveMeshMotionVectorGenerationMode: 0
@@ -28184,7 +28184,7 @@ PrefabInstance:
     - target: {fileID: 569870431297669760, guid: e0e0049f8f7577d469e658ec48b20b73,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 569870431297669764, guid: e0e0049f8f7577d469e658ec48b20b73,
         type: 3}

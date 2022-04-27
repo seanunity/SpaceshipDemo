@@ -2731,6 +2731,11 @@ PrefabInstance:
       propertyPath: m_DirectorUpdateMode
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5005771225792427721, guid: 7a4067ac9aa3d974cbdfb8831d2cebeb,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6018460610484262954, guid: 7a4067ac9aa3d974cbdfb8831d2cebeb,
         type: 3}
       propertyPath: m_DirectorUpdateMode
