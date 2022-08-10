@@ -1,20 +1,3 @@
-%YAML 1.1
-%TAG !u! tag:unity3d.com,2011:
---- !u!114 &11400000
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 90914193517e41742b7596aa0a1cc609, type: 3}
-  m_Name: VO Line 6_VO2 broken radio_06
-  m_EditorClassIdentifier: 
-  Clip: {fileID: 8300000, guid: 8097f9b89bef0d24caaef3b08df453d4, type: 3}
-  Subtitles:
-  - Time: 0.5
-    Text: Hurry up! And get us to the landing site!
-  - Time: 3
-    Text: 
+version https://git-lfs.github.com/spec/v1
+oid sha256:726598a131c91ac05c789a1c8b0ddb9e7fd394b32125baef3bc65dcc505da609
+size 595

@@ -1,24 +1,3 @@
-%YAML 1.1
-%TAG !u! tag:unity3d.com,2011:
---- !u!114 &11400000
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c7d5bb3f971603247917785e7ea66453, type: 3}
-  m_Name: macOS-Release
-  m_EditorClassIdentifier: 
-  Name: macOS
-  Category: Mac
-  Profile: {fileID: 11400000, guid: da7dc22888395f849acd99edb8e09cf7, type: 2}
-  SceneList: {fileID: 11400000, guid: dd790fd6ec20f15478b7a5c9a4052538, type: 2}
-  BuildPath: Build/macOS/Release/
-  ExecutableName: Spaceship.app
-  CleanupBeforeBuild: 1
-  OpenInExplorer: 0
-  RunWithArguments: 
-  processors: []
+version https://git-lfs.github.com/spec/v1
+oid sha256:51e31573f1a796a404ef1ee9f710994816f49c12214a7e5911c621e99390f3f4
+size 740

@@ -1,10 +1,7 @@
 fileFormatVersion: 2
 guid: b674df580f5ca3744b4f70fd22a91ef0
 ScriptedImporter:
-  internalIDToNameTable:
-  - first:
-      117: 11700000
-    second: VectorField
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 2
   userData: 
@@ -14,5 +11,5 @@ ScriptedImporter:
   outputFormat: 1
   wrapMode: 0
   filterMode: 1
-  generateMipMaps: 1
+  generateMipMaps: 0
   anisoLevel: 1

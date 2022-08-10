@@ -28,6 +28,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 5378703417064515622}
   m_Father: {fileID: 0}
@@ -54,10 +55,10 @@ MonoBehaviour:
   MinDelay: 1
   MaxDelay: 7.5
   MinSettings:
-    Intensity: 0.1
+    Intensity: 0
     Position: {x: -32, y: -8, z: -32}
   MaxSettings:
-    Intensity: 0.2
+    Intensity: 0
     Position: {x: 32, y: 8, z: 32}
 --- !u!114 &2056830211060783441
 MonoBehaviour:
@@ -73,8 +74,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_ImpulseDefinition:
     m_ImpulseChannel: 1
+    m_ImpulseShape: 0
+    m_CustomImpulseShape:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_ImpulseDuration: 0.2
+    m_ImpulseType: 3
+    m_DissipationRate: 0
     m_RawSignal: {fileID: 11400000, guid: 7512839da3b5e7540b1fe60f9d69fd31, type: 2}
-    m_AmplitudeGain: 1
+    m_AmplitudeGain: 0
     m_FrequencyGain: 1
     m_RepeatMode: 0
     m_Randomize: 1
@@ -100,6 +111,8 @@ MonoBehaviour:
     m_DirectionMode: 1
     m_DissipationMode: 0
     m_DissipationDistance: 1000
+    m_PropagationSpeed: 343
+  m_DefaultVelocity: {x: 0, y: -1, z: 0}
 --- !u!1 &3201157111463999365
 GameObject:
   m_ObjectHideFlags: 0
@@ -127,6 +140,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2056830211060783791}
   m_RootOrder: 0
