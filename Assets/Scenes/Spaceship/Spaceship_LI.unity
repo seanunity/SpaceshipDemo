@@ -1309,7 +1309,7 @@ MonoBehaviour:
     camera:
       camera: 0
   m_ProxyVolume: {fileID: 1850326967}
-  m_BakedTexture: {fileID: 8900000, guid: c05016cd25b6e994a9a58f9865c972ef, type: 3}
+  m_BakedTexture: {fileID: 8900000, guid: dceea73cc32578b4cba4820059dff118, type: 3}
   m_CustomTexture: {fileID: 0}
   m_BakedRenderData:
     m_WorldToCameraRHS:
@@ -4284,7 +4284,7 @@ MonoBehaviour:
     camera:
       camera: 0
   m_ProxyVolume: {fileID: 0}
-  m_BakedTexture: {fileID: 8900000, guid: a6d6cb13692c8104da60c914b0db604d, type: 3}
+  m_BakedTexture: {fileID: 8900000, guid: f4b15493db0aaa240bb98fdc99eb2e34, type: 3}
   m_CustomTexture: {fileID: 0}
   m_BakedRenderData:
     m_WorldToCameraRHS:
@@ -5852,7 +5852,7 @@ PrefabInstance:
     - target: {fileID: 4232308801641103613, guid: c82f89b955395a741b8e42b0dfe1e17b,
         type: 3}
       propertyPath: m_BoundingSphereOverride.w
-      value: 0
+      value: -2.824639e+13
       objectReference: {fileID: 0}
     - target: {fileID: 4232308801641103613, guid: c82f89b955395a741b8e42b0dfe1e17b,
         type: 3}
@@ -5862,12 +5862,12 @@ PrefabInstance:
     - target: {fileID: 4232308801641103613, guid: c82f89b955395a741b8e42b0dfe1e17b,
         type: 3}
       propertyPath: m_BoundingSphereOverride.y
-      value: 8e-45
+      value: -5.0998317e-28
       objectReference: {fileID: 0}
     - target: {fileID: 4232308801641103613, guid: c82f89b955395a741b8e42b0dfe1e17b,
         type: 3}
       propertyPath: m_BoundingSphereOverride.z
-      value: 1
+      value: 5.62e-43
       objectReference: {fileID: 0}
     - target: {fileID: 6011944730506922235, guid: c82f89b955395a741b8e42b0dfe1e17b,
         type: 3}
@@ -8876,7 +8876,7 @@ MonoBehaviour:
     camera:
       camera: 0
   m_ProxyVolume: {fileID: 1850326967}
-  m_BakedTexture: {fileID: 8900000, guid: bef2e52e091499f43b9cab20487cee5e, type: 3}
+  m_BakedTexture: {fileID: 8900000, guid: 073e2057a67fbe1428cbe76c4e8e00d5, type: 3}
   m_CustomTexture: {fileID: 0}
   m_BakedRenderData:
     m_WorldToCameraRHS:
@@ -9369,7 +9369,7 @@ MonoBehaviour:
     camera:
       camera: 0
   m_ProxyVolume: {fileID: 0}
-  m_BakedTexture: {fileID: 8900000, guid: 5f740b86faa0f7348b9d38eb699f0d96, type: 3}
+  m_BakedTexture: {fileID: 8900000, guid: a6d6cb13692c8104da60c914b0db604d, type: 3}
   m_CustomTexture: {fileID: 0}
   m_BakedRenderData:
     m_WorldToCameraRHS:
@@ -10597,7 +10597,7 @@ MonoBehaviour:
     camera:
       camera: 0
   m_ProxyVolume: {fileID: 0}
-  m_BakedTexture: {fileID: 8900000, guid: dceea73cc32578b4cba4820059dff118, type: 3}
+  m_BakedTexture: {fileID: 8900000, guid: 5f740b86faa0f7348b9d38eb699f0d96, type: 3}
   m_CustomTexture: {fileID: 0}
   m_BakedRenderData:
     m_WorldToCameraRHS:
@@ -11209,7 +11209,7 @@ MonoBehaviour:
     camera:
       camera: 0
   m_ProxyVolume: {fileID: 0}
-  m_BakedTexture: {fileID: 8900000, guid: 073e2057a67fbe1428cbe76c4e8e00d5, type: 3}
+  m_BakedTexture: {fileID: 8900000, guid: bef2e52e091499f43b9cab20487cee5e, type: 3}
   m_CustomTexture: {fileID: 0}
   m_BakedRenderData:
     m_WorldToCameraRHS:
@@ -13007,7 +13007,7 @@ MonoBehaviour:
     camera:
       camera: 0
   m_ProxyVolume: {fileID: 0}
-  m_BakedTexture: {fileID: 8900000, guid: f70ffe123975d984cb4ee946bb636710, type: 3}
+  m_BakedTexture: {fileID: 8900000, guid: c05016cd25b6e994a9a58f9865c972ef, type: 3}
   m_CustomTexture: {fileID: 0}
   m_BakedRenderData:
     m_WorldToCameraRHS:
@@ -16615,7 +16615,7 @@ MonoBehaviour:
     camera:
       camera: 0
   m_ProxyVolume: {fileID: 0}
-  m_BakedTexture: {fileID: 8900000, guid: f4b15493db0aaa240bb98fdc99eb2e34, type: 3}
+  m_BakedTexture: {fileID: 8900000, guid: 98a1bfda0414a9945887cc9ea9ca0bf6, type: 3}
   m_CustomTexture: {fileID: 0}
   m_BakedRenderData:
     m_WorldToCameraRHS:
@@ -21080,7 +21080,7 @@ MonoBehaviour:
     camera:
       camera: 0
   m_ProxyVolume: {fileID: 0}
-  m_BakedTexture: {fileID: 8900000, guid: 98a1bfda0414a9945887cc9ea9ca0bf6, type: 3}
+  m_BakedTexture: {fileID: 8900000, guid: f70ffe123975d984cb4ee946bb636710, type: 3}
   m_CustomTexture: {fileID: 0}
   m_BakedRenderData:
     m_WorldToCameraRHS:
@@ -22490,7 +22490,7 @@ Light:
   m_UseColorTemperature: 1
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 5}
   m_UseBoundingSphereOverride: 1
-  m_UseViewFrustumForShadowCasterCull: 0
+  m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 1
   m_ShadowAngle: 0
 --- !u!1 &1799967449
@@ -25760,9 +25760,9 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 5155
   m_UseColorTemperature: 1
-  m_BoundingSphereOverride: {x: 0, y: 73.84571, z: 1.02e-43, w: 4e-45}
+  m_BoundingSphereOverride: {x: 0, y: -4.2768163e-30, z: 4.5904e-41, w: 7.171087e+10}
   m_UseBoundingSphereOverride: 0
-  m_UseViewFrustumForShadowCasterCull: 0
+  m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
 --- !u!1 &2006683632
@@ -27022,22 +27022,22 @@ PrefabInstance:
     - target: {fileID: 4232308801641103613, guid: c82f89b955395a741b8e42b0dfe1e17b,
         type: 3}
       propertyPath: m_BoundingSphereOverride.w
-      value: 0.000000081960906
+      value: -1.4030896e+15
       objectReference: {fileID: 0}
     - target: {fileID: 4232308801641103613, guid: c82f89b955395a741b8e42b0dfe1e17b,
         type: 3}
       propertyPath: m_BoundingSphereOverride.x
-      value: NaN
+      value: 5.62e-43
       objectReference: {fileID: 0}
     - target: {fileID: 4232308801641103613, guid: c82f89b955395a741b8e42b0dfe1e17b,
         type: 3}
       propertyPath: m_BoundingSphereOverride.y
-      value: 1.287396e+30
+      value: 2.51e-43
       objectReference: {fileID: 0}
     - target: {fileID: 4232308801641103613, guid: c82f89b955395a741b8e42b0dfe1e17b,
         type: 3}
       propertyPath: m_BoundingSphereOverride.z
-      value: NaN
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6011944730506922235, guid: c82f89b955395a741b8e42b0dfe1e17b,
         type: 3}
@@ -28586,7 +28586,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 7614
   m_UseColorTemperature: 1
-  m_BoundingSphereOverride: {x: 0, y: 1e-45, z: 1.02e-43, w: 1.5e-44}
+  m_BoundingSphereOverride: {x: 0, y: 2.347552e+10, z: 5.63e-43, w: 1.36e-43}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0

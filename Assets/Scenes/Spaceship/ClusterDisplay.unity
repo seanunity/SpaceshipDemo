@@ -124,20 +124,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!114 &982091214
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5450854a27184f944ade3cd5bb177ff1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_IsDebug: 0
-  m_NodeIndexOverride: 0
 --- !u!1 &1045008340
 GameObject:
   m_ObjectHideFlags: 0
@@ -183,7 +169,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Settings:
     m_OverscanInPixels: 64
-  m_ProjectionPolicy: {fileID: 982091214}
+  m_ProjectionPolicy: {fileID: 11400000, guid: fe5911b451d262048960e5d7b0ecfd5f, type: 2}
   m_DelayPresentByOneFrame: 0
 --- !u!114 &1045008343
 MonoBehaviour:
@@ -283,7 +269,7 @@ PrefabInstance:
     - target: {fileID: 7492518966351216234, guid: 2ec9520f38197b8408567affe7df22d2,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7492518968080152745, guid: 2ec9520f38197b8408567affe7df22d2,
         type: 3}
